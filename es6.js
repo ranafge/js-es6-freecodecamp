@@ -64,3 +64,22 @@ console.log(objAddress.country) //Bangladesh
 document.getElementById('city').innerText = objAddress.city
 document.getElementById('state').innerText = objAddress.state
 document.getElementById('country').innerText = objAddress.country
+
+
+//for loop
+
+let incomes = [30000, 40000, 50000, 80000];
+
+
+let total = 0;
+// update list item
+for (let income of incomes) {
+    income += 100
+
+}
+
+console.log(total);
+console.log(incomes);
+
+
+//spread operator
