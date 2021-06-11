@@ -83,3 +83,18 @@ console.log(incomes);
 
 
 //spread operator
+
+
+let numbers = [1, 2, 3, 4];
+
+let numbers2 = [...numbers, 5, 6, 7] // copy numbers list
+
+console.log(numbers);
+console.log(numbers2);
+
+
+// add item in a list
+
+numbers2.push(true);
+
+console.log(numbers2)
