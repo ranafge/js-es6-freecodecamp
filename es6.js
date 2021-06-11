@@ -97,4 +97,24 @@ console.log(numbers2);
 
 numbers2.push(true);
 
-console.log(numbers2)
+console.log(numbers2);
+
+//Rest opeator
+
+function add(...nums) {
+    console.log(nums)
+}
+
+add(2, 1, 3, 4, 5, 5, 6, 7, 7)
+
+
+//Arro function
+
+function add2(...num) {
+    let total = num.reduce((x, y) => x + y);
+    return total;
+
+}
+
+let res = add2(1, 2, 3, 4);
+console.log(res)
