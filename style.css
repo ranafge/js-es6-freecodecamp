@@ -1,0 +1,14 @@
+.address div {
+    display: flex;
+    background-color: blanchedalmond;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.address p {
+    margin: 5px;
+    padding: 20px;
+    background-color: chocolate;
+}
